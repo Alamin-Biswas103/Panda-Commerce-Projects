@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+
 /* Common style */
+
+
 .container{
-    margin: 0 10%;
-    margin-top: 50px;
+    width: 80%;
+    max-width: 1900px;
+    margin: 50px auto 0;
 }
+
 
 /* Navbar Style is started here */
 .navbar{
@@ -70,6 +75,33 @@
 #hamburger-menu{
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:900px) {
     .searchbar-container{
