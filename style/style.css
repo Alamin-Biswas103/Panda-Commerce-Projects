@@ -22,11 +22,16 @@
 }
 
 
+
 /* Common style */
 .container{
     width: 80%;
     max-width: 1900px;
     margin: 50px auto 50px;
+}
+
+.bg-gray{
+    background: #F4F4F4;
 }
 
 .paragraph{
@@ -38,7 +43,12 @@
     display: none;
 }
 
+.bg-white{
+    background: #fff;
+}
+
 /* Navbar Style is started here */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -193,35 +203,106 @@
 }
 
 
+/* Shoes section ------------- */
+
+.shoe-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.shoe-header h1{
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.shoes-card-container{
+    display: flex;
+    gap: 3vw;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.shoe-card{
+    background: #fff;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 3vh;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.shoe-card h3{
+    font-weight: 900;
+}
+
+.shoe-card p{
+    font-size: 0.8rem;
+    color: #808080;
+}
+
+.shoe-card button{
+    color: white;
+    background: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    gap: 1rem;
+    font-weight: 700;
+}
+
+.shoe-card button:hover{
+    background: gray;
+}
 
 
 
+/* Bag section is designed here */
+
+.bag-card-parent{
+    flex: 1;
+}
 
 
+/* Footer section is designed here */
+.footer-section{
+    background: #FFF2F1;
+    text-align: center;
+    padding: 20vh 0;
+    border-radius: 10px;
+}
 
+.footer-section p{
+    color: #808080;
+}
 
+.footer-section h2{
+    margin-bottom: 10px;
+}
+.footer-section div{
+    margin-top: 20px;
+}
 
+.footer-section input
+{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-section button{
+    padding: 10px 20px;
+    position: relative;
+    right: 10px;
+    border: none;
+    background: rgb(240, 69, 97);
+    color: white;
+}
 
 
 
@@ -237,8 +318,33 @@
         display: flex;
     }
 
+    .banner-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .categories-section{
+        padding: 0;
+    }
+    .categories-card{
+        flex-direction: column;
+    }
+    .categories-card div{
+        padding: 20px;
+    }
+    .container{
+        width: 95%;
+    }
+
     .navbar ul{
         display: none;
+    }
+
+
+    .shoes-card-container{
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
     }
 }
 
